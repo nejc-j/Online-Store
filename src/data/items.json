@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "Computer",
+    "price": 1199.99,
+    "imgUrl": "/images/computer.jpg",
+    "category": "technology"
+  },
+  {
+    "id": 2,
+    "name": "Airfryer",
+    "price": 79.99,
+    "imgUrl": "/images/airfryer.jpg",
+    "category": "appliance"
+  },
+  {
+    "id": 3,
+    "name": "Book",
+    "price": 14.99,
+    "imgUrl": "/images/book.jpg",
+    "category": "education"
+  },
+  {
+    "id": 4,
+    "name": "Sneakers",
+    "price": 109.99,
+    "imgUrl": "/images/sneakers.jpg",
+    "category": "fashion"
+  },
+  {
+    "id": 5,
+    "name": "Wall Art",
+    "price": 45.99,
+    "imgUrl": "/images/wall-art.jpg",
+    "category": "home decor"
+  },
+  {
+    "id": 6,
+    "name": "Chef's Knives Set",
+    "price": 35.99,
+    "imgUrl": "/images/knives.jpg",
+    "category": "kitchenware"
+  },
+  {
+    "id": 7,
+    "name": "Gardening Gloves",
+    "price": 19.99,
+    "imgUrl": "/images/gardening-gloves.jpg",
+    "category": "gardening"
+  },
+  {
+    "id": 8,
+    "name": "Yoga Mat",
+    "price": 25.99,
+    "imgUrl": "/images/yoga-mat.jpg",
+    "category": "sports"
+  },
+  {
+    "id": 9,
+    "name": "Puzzle Game",
+    "price": 9.99,
+    "imgUrl": "/images/puzzle-game.jpg",
+    "category": "toys"
+  },
+  {
+    "id": 10,
+    "name": "Wristwatch",
+    "price": 199.99,
+    "imgUrl": "/images/wristwatch.jpg",
+    "category": "accessories"
+  },
+  {
+    "id": 11,
+    "name": "Portable Tent",
+    "price": 89.99,
+    "imgUrl": "/images/portable-tent.jpg",
+    "category": "outdoor"
+  },
+  {
+    "id": 12,
+    "name": "Espresso Machine",
+    "price": 499.99,
+    "imgUrl": "/images/espresso-machine.jpg",
+    "category": "appliance"
+  },
+  {
+    "id": 13,
+    "name": "Leather Wallet",
+    "price": 39.99,
+    "imgUrl": "/images/wallet.jpg",
+    "category": "accessories"
+  }
+]
