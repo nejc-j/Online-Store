@@ -9,6 +9,7 @@ type ShoppingCartProviderProps = {
 type CartItem = {
   id: number;
   quantity: number;
+  price?: number; // Include other necessary properties
 };
 
 type ShoppingCartContext = {
@@ -19,7 +20,7 @@ type ShoppingCartContext = {
   decreaseCartQuantity: (id: number) => void;
   removeFromCart: (id: number) => void;
   cartQuantity: number;
-  cartItems: number;
+  cartItems: CartItem[];
 };
 
 const ShoppingCartContext = createContext({} as ShoppingCartContext);

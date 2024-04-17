@@ -1,9 +1,13 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, RefObject } from 'react';
 import { useFavorites } from '../context/FavoritesContext';
 
-const FavoritesPopup = ({ heartRef }) => {
+type FavoritesPopupProps = {
+  heartRef: RefObject<HTMLDivElement>;
+};
+
+const FavoritesPopup: React.FC<FavoritesPopupProps> = ({ heartRef }) => {
   const { favorites } = useFavorites();
-  const popupRef = useRef(null);
+  const popupRef = useRef<HTMLDivElement>(null);
   const [popupStyle, setPopupStyle] = useState({
     visibility: 'hidden',
     top: '-9999px',

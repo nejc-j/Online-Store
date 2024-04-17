@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Container, Row, Col, Stack, Button } from 'react-bootstrap';
 import { useShoppingCart } from '../context/ShoppingCartContext';
 import { useFavorites } from '../context/FavoritesContext';
@@ -28,7 +28,7 @@ const Checkout = () => {
     return total + (product?.price || 0) * item.quantity;
   }, 0);
 
-  const handleAddToCartFromFavorites = (id) => {
+  const handleAddToCartFromFavorites = (id: number) => {
     increaseCartQuantity(id);
   };
 
